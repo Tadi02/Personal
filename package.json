@@ -1,0 +1,11 @@
+{
+  "name": "personal",
+  "version": "1.0.0",
+  "description": "A personal website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adam Tomko",
+  "license": "ISC"
+}
