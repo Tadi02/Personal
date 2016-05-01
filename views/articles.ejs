@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<% articles.forEach(function(article){ %>
+    <h2><%=article.title%></h2>
+    <small><%=article.createdAt%></small>
+    <%- article.text %>
+<% }); %>
+
+
+</body>
+</html>
