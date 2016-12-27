@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <%- include('head') %>
+    <title>Articles</title>
 </head>
 <body>
 
-<% articles.forEach(function(article){ %>
-    <h2><%=article.title%></h2>
-    <small><%=article.createdAt%></small>
-    <%- article.text %>
-<% }); %>
-
+<div class="articles">
+    <% articles.forEach(function(article){ %>
+    <div class="article">
+        <h2><%= article.title %></h2>
+        <%- article.text %>
+        <div class="article-time">Hozzádva: <%= article.createdAt %></div>
+    </div>
+    <% }); %>
+</div>
 
 </body>
 </html>

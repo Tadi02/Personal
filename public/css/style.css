@@ -1,0 +1,13 @@
+.articles{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.article{
+    margin-bottom: 40px;
+}
+
+.article-time{
+    margin-top: 15px;
+    font-size: smaller;
+}
