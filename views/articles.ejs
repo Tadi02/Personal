@@ -11,7 +11,7 @@
     <div class="article">
         <h2><%= article.title %></h2>
         <%- article.text %>
-        <div class="article-time">Hozzádva: <%= article.createdAt %></div>
+        <div class="article-time">Hozzádva: <%= moment(article.createdAt).format('YYYY. MM. DD. HH:mm'); %></div>
     </div>
     <% }); %>
 </div>
