@@ -1,13 +1,17 @@
-.articles{
+.articles {
     max-width: 600px;
     margin: 0 auto;
 }
 
-.article{
+.article {
     margin-bottom: 40px;
 }
 
-.article-time{
+.article-time {
     margin-top: 15px;
     font-size: smaller;
+}
+
+.article-more {
+    margin-top: 15px;
 }

@@ -2,19 +2,17 @@
 <html lang="en">
 <head>
     <%- include('head') %>
-    <title>Articles</title>
+    <title><%= article.title %></title>
 </head>
 <body>
 
 <div class="articles">
-    <% articles.forEach(function(article){ %>
     <div class="article">
         <h2><%= article.title %></h2>
         <%- article.text %>
         <div class="article-time">Hozzádva: <%= moment(article.createdAt).format('YYYY. MM. DD. HH:mm'); %></div>
-        <div class="article-more"><a href="/articles/detail/<%= article.seoFriendlyTitle %>">Bővebben</a></div>
+        <div class="article-more"><a href="/articles/list">Vissza</a></div>
     </div>
-    <% }); %>
 </div>
 
 </body>
