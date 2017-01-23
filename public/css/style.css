@@ -1,9 +1,9 @@
-.articles {
+.articles, .project-form, .projects {
     max-width: 600px;
     margin: 0 auto;
 }
 
-.article {
+.article, .project {
     margin-bottom: 40px;
 }
 
@@ -12,6 +12,6 @@
     font-size: smaller;
 }
 
-.article-more {
+.article-more, .project-more {
     margin-top: 15px;
 }

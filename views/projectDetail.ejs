@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('head') %>
+    <title><%= project.name %></title>
+</head>
+<body>
+
+<div class="projects">
+    <div class="project">
+        <h2><%= project.name %></h2>
+        <h4><%= project.time %></h4>
+        <%- project.description %>
+        <div class="project-more"><a href="/projects/list">Vissza</a></div>
+    </div>
+</div>
+
+</body>
+</html>

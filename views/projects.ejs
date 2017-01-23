@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('head') %>
+    <title>Projects</title>
+</head>
+<body>
+
+<div class="projects">
+    <% projects.forEach(function(project){ %>
+    <div class="project">
+        <a href="/projects/detail/<%= project.seoFriendlyName %>"><%= project.name %></a><br/>
+    </div>
+    <% }); %>
+</div>
+
+</body>
+</html>
